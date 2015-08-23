@@ -1,0 +1,93 @@
+
+/*01 BASE STYLES 
+-----------------------------------------------------------------------------*/
+html, body {
+	color: #515151;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+ }
+	
+	
+	
+
+.clear {
+	clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+=02 LAYOUT 
+-----------------------------------------------------------------------------*/
+.sidebar
+	 {
+	width: 250px;
+	background: white;
+	float: right;
+	padding: 25px;
+	}
+
+.main {
+	width: 750px;
+	background: white;
+	float:left;
+	text-align: center;
+}
+
+
+
+/*----------------------------------------------------------------------------- 
+04=SIDEBAR
+-----------------------------------------------------------------------------*/
+
+.sidebar img {
+		border-radius: ;
+	}
+
+.widget {
+	position: center;
+}
+/*----------------------------------------------------------------------------- 
+04=TITLE
+-----------------------------------------------------------------------------*/
+.title {
+    width:250px;
+    position:absolute;
+    bottom:0
+}
+
+/*----------------------------------------------------------------------------- 
+05=NAV
+-----------------------------------------------------------------------------*/
+.nav-container {
+	width:400px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	 
+}
+
+ul {
+	padding-right: 0;
+}
+
+ul li {
+	float: right;
+	list-style: none;
+	font-size: 17px;
+}
+
+ul li a {
+	margin: 10px;
+	padding: 10px;
+	display: block;
+}
+
+
+nav ul li a:hover {
+	color:#000;
+	transition: color 0.3s ease-in;
+}
+
+
+
+

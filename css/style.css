@@ -6,14 +6,10 @@ html, body {
 	height: 100%;
 	font-family: 'Lato', sans-serif;
  }
-	
-	
-	
 
 .clear {
 	clear: both;
 }
-
 
 /*----------------------------------------------------------------------------- 
 =02 LAYOUT 
@@ -33,27 +29,36 @@ html, body {
 	text-align: center;
 }
 
-
-
 /*----------------------------------------------------------------------------- 
-04=SIDEBAR
+03=SIDEBAR
 -----------------------------------------------------------------------------*/
+.sidebar {
+	padding-top: 165px;
+}
 
 .sidebar img {
-		border-radius: ;
+		border-radius: 15px ;
 	}
 
 .widget {
-	position: center;
+	padding-bottom:50px;
+	padding: 10px;
 }
+
+.widget img {
+	margin: 10px;
+}
+
 /*----------------------------------------------------------------------------- 
 04=TITLE
 -----------------------------------------------------------------------------*/
 .title {
     width:250px;
     position:absolute;
-    bottom:0
-}
+    bottom:0;
+    padding-bottom:25px;
+    padding-left: 25px;
+    }	
 
 /*----------------------------------------------------------------------------- 
 05=NAV
@@ -63,17 +68,19 @@ html, body {
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	 
+	padding-bottom:30px;	
+	padding-right: 15px; 
 }
 
 ul {
 	padding-right: 0;
+
 }
 
 ul li {
 	float: right;
 	list-style: none;
-	font-size: 17px;
+	font-size: 18px;
 }
 
 ul li a {
@@ -83,11 +90,40 @@ ul li a {
 }
 
 
-nav ul li a:hover {
-	color:#000;
-	transition: color 0.3s ease-in;
+ul li a:hover {
+	color:#003366;
+	transition: color 0.2s ease-in;
 }
 
 
+/*----------------------------------------------------------------------------- 
+=06 CONTACT
+-----------------------------------------------------------------------------*/
+input, textarea { 
+    padding: 9px; 
+    border: solid 1px #E5E5E5; 
+    outline: 0; 
+    width: 200px; 
+    background: #FFFFFF; 
+    } 
+   
+textarea { 
+    width: 400px; 
+    max-width: 400px; 
+    height: 150px; 
+    line-height: 150%; 
+    } 
+   
+.form label { 
+    margin-left: 10px; 
+    color: #999999; 
+    } 
 
-
+.submit input { 
+    width: auto; 
+    padding: 9px 15px; 
+    background:#FFFFFF; 
+    border: 15px; 
+    font-size: 14px; 
+    color:#787878; 
+    }

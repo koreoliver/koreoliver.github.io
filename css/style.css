@@ -1,17 +1,16 @@
 
-/*01 BASE STYLES 
+/*00 BASE STYLES 
 -----------------------------------------------------------------------------*/
 html, body {
 	color: #696969;
 	height: 100%;
 	font-family: 'Lato', sans-serif;
  }
-
 .clear {
 	clear: both;
 }
 /*----------------------------------------------------------------------------- 
-=02 LAYOUT 
+=01 LAYOUT 
 -----------------------------------------------------------------------------*/
 .sidebar
 	 {
@@ -26,6 +25,13 @@ html, body {
 	background: white;
 	float:left;
 	text-align: center;
+}
+/*----------------------------------------------------------------------------- 
+02=MAIN
+-----------------------------------------------------------------------------*/
+.main img {
+    min-width:100%;
+    min-height:100%
 }
 /*----------------------------------------------------------------------------- 
 03=SIDEBAR
@@ -57,7 +63,6 @@ html, body {
     padding-bottom:25px;
     padding-left: 25px;
     }	
-
 /*----------------------------------------------------------------------------- 
 05=NAV
 -----------------------------------------------------------------------------*/
@@ -67,7 +72,8 @@ html, body {
 	right: 0;
 	bottom: 0;
 	padding-bottom:30px;	
-	padding-right: 15px; 
+	padding-right: 15px;
+	text-decoration: none;
 }
 
 ul {
@@ -78,6 +84,7 @@ ul li {
 	float: right;
 	list-style: none;
 	font-size: 18px;
+	text-decoration: none;
 }
 
 ul li a {
@@ -92,8 +99,19 @@ ul li a:hover {
 	transition: color 0.4s ease-in;
 }
 /*----------------------------------------------------------------------------- 
-=06 CONTACT
+=06 LINE
 -----------------------------------------------------------------------------*/
+
+.somediv {
+	border-bottom: solid 1px gray;
+	width: 100%;
+	}
+/*----------------------------------------------------------------------------- 
+=07 CONTACT
+-----------------------------------------------------------------------------*/
+.form {
+
+}
 input, textarea { 
     padding: 9px; 
     border: solid 1px #E5E5E5; 
@@ -117,7 +135,7 @@ textarea {
 .submit input { 
     width: auto; 
     padding: 9px 15px; 
-    background:#696969; 
+    background:#C0C0C0; 
     border: 15px; 
     font-size: 14px; 
     color:#FFFFFF; 

@@ -111,8 +111,9 @@ ul li a:hover {
 
 .projectimages img {
 	margin-top: 50px;
-	padding: 10px;
-	margin-left: 38px;
+	padding: 8px;
+	margin-left: 40px;
+	margin-right: 40px;
 	border: 1px solid #C0C0C0;
     bottom:0;
 }
@@ -127,7 +128,8 @@ ul li a:hover {
   	padding: 2px;
   	max-width: 500px;
   	padding-left: 50px;
-  	margin-left: 200px;
+  	margin-left: 250px;
+  	margin-right: 250px;
   	margin-top: 45px;
 }
 

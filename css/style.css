@@ -97,21 +97,38 @@ ul li a:hover {
 	color:#663399;
 	transition: color 0.4s ease-in;
 }
-/*----------------------------------------------------------------------------- 
-=06 LINE
------------------------------------------------------------------------------*/
 /*.line {
 	border-bottom: solid 1px gray;
 	width: 100%;
+	}
+/*----------------------------------------------------------------------------- 
+=06 PROJECTS
+-----------------------------------------------------------------------------*/
+.projectheader h2 {
+	padding: 30px;
+	text-align: center;
+}
+
+.projectimages img {
+	margin-top: 50px;
+	padding: 10px;
+	margin-left: 38px;
+	border: 1px solid #C0C0C0;
+    bottom:0;
+}
+/*.projecttitles h4 {
+	margin-left: 50px;
 	}
 /*----------------------------------------------------------------------------- 
 =07 CONTACT
 -----------------------------------------------------------------------------*/
 .contactmain {
  	border: 1px solid #C0C0C0;
-  	padding: 5px;
+  	padding: 2px;
   	max-width: 500px;
   	padding-left: 50px;
+  	margin-left: 200px;
+  	margin-top: 45px;
 }
 
 input, textarea { 
@@ -142,3 +159,25 @@ textarea {
     font-size: 14px; 
     color:#FFFFFF; 
     }
+
+/*----------------------------------------------------------------------------- 
+08=THANK YOU
+-----------------------------------------------------------------------------*/
+#response {
+	  border: 1px solid #C0C0C0;
+	  background-color: white;
+	  width: 200px;
+	  height: 150px;
+	  text-align: center;
+	  visibility:none;
+  
+}
+
+h3 {
+
+}
+
+
+
+
+

@@ -12,6 +12,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'> 
 
   <body>
+      <script src="portfolio.js"></script>
       <div class="title">
                 <h1>KORE OLIVER</h1>
             </div><!-- #title -->
@@ -27,25 +28,31 @@
       <div class="container">
         <div class="contactmain">
           <form action="http://formspree.io/kore.oliver@gmail.com"
-      method="POST">     
+      method="POST">  
+
          <form class="form">
           <p>
-        Contact 
-        </p>   
-        <p class="name"> 
+          Contact 
+          </p>   
+          <p class="name"> 
             <label for="name">Name</label> 
             <input type="text" name="name" id="name" />      
-        </p> 
+          </p> 
           <p class="email"> 
              <label for="email">Email</label>
              <input type="text" name="email" id="email" />         
-        </p>  
-        <p class="text"> 
+          </p>  
+          <p class="text"> 
+            <label for="email">Write your message here!</label>
             <textarea name="text"></textarea> 
-        </p>  
-        <p class="submit"> 
+          </p>  
+          <p class="submit"> 
             <input type="submit" value="Send" /> 
-        </p> 
+          </p> 
+          <p>  
+            <input type="hidden" name="a" value="#response" /> 
+            </p> 
+     
        </form>
      </div><!-- #main -->
    </div><!-- #container -->

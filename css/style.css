@@ -127,7 +127,7 @@ ul li a:hover {
  	border: 1px solid #C0C0C0;
   	padding: 2px;
   	max-width: 500px;
-  	padding-left: 50px;
+  	padding-left: 30px;
   	margin-left: 250px;
   	margin-right: 250px;
   	margin-top: 45px;
@@ -144,7 +144,7 @@ input, textarea {
 textarea { 
     width: 400px; 
     max-width: 400px; 
-    height: 150px; 
+    height: 100px; 
     line-height: 150%; 
     } 
    
@@ -165,19 +165,18 @@ textarea {
 /*----------------------------------------------------------------------------- 
 08=THANK YOU
 -----------------------------------------------------------------------------*/
-#response {
-	  border: 1px solid #C0C0C0;
-	  background-color: white;
-	  width: 200px;
-	  height: 150px;
+.hidden {
+	   border: solid 1px #E5E5E5;
+	  width: 400px;
+	  height: 60px;
 	  text-align: center;
-	  visibility:none;
-  
+	  font-size:17px; 
+	  visibility:hidden;
 }
 
-h3 {
+.hidden input { 
 
-}
+
 
 
 

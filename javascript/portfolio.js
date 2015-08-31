@@ -1,12 +1,14 @@
-var div_thanks = document.body.createElement("div");
-div_thanks.id = "response";
-document.body.appendChild(form); 
 
-function validateForm() {
-    var x = document.body.form ["form"]["name"]["email"]["submit"].value;
-    if (x === true) {   	
-        alert ("Thanks! Your message has been received. I'll be in touch soon.");
-    }
+document.document.body.form('button').onclick = function() {
+    document.document.body.form('login').style.visibility = 'visible';
 }
+document.document.body.form('closebutton').onclick = function() {
+    document.document.body.form('login').style.visibility = 'hidden';
+}
+
+if (document.body.form['form']['name'] == null){ alert("Please enter your name")} 
+else(document.body.form['form']['email'] == null){ alert("Please enter your email")}
+else(document.body.form['form']['message'] == null){ alert("Please enter a message")}  
+else if {print("h5")};
 
 

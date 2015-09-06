@@ -36,28 +36,32 @@
           </p>   
           <p class="name"> 
             <label for="name">Name</label> 
-            <input type="text" name="name" id="name" />      
+            <input type="text" name="name" id="name" required/>      
           </p> 
           <p class="email"> 
              <label for="email">Email</label>
-             <input type="text" name="email" id="email" />         
+             <input type="text" name="email" id="email" required/>         
           </p>  
-          <p class="text"> 
-            <label for="email">Your message</label>
-            <textarea name="text"></textarea> 
+          <p class="message"> 
+            <label for="message">Your message</label>
+            <textarea name="text"></textarea required> 
           </p>  
           <p class="submit"> 
             <input type="submit" value="Send"/> 
           </p>  
            <div class ="hidden"> 
-            <input type="hidden" name="button" value="Close"/> 
+            <a href="#" onclick="window.close();">x</a> 
            <h5>Thanks! Your message has been received. I'll be in touch soon.</h5>
-          <div><!-- #hidden-->
+          </div><!-- #hidden-->
        </form><!-- #form-->
+       
      </div><!-- #main -->
    </div><!-- #container -->
+
+
   </body>
 </html>
+
 
 
 

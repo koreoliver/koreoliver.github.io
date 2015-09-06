@@ -166,15 +166,23 @@ textarea {
 08=THANK YOU
 -----------------------------------------------------------------------------*/
 .hidden {
-	   border: solid 1px #E5E5E5;
+	  border: solid 1px #E5E5E5;
 	  width: 400px;
 	  height: 60px;
 	  text-align: center;
-	  font-size:17px; 
-	  visibility:hidden;
+	  font-size: 17px; 
+	  visibility: hidden;
+	 
 }
-
-.hidden input { 
+.hidden a {
+	width: auto; 
+    padding: 2.25px 3.75px; 
+    background:#C0C0C0; 
+    border: 15px; 
+    font-size: 14px; 
+    color:#FFFFFF;
+	float:right;
+}
 
 
 

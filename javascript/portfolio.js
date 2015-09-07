@@ -1,7 +1,7 @@
 /*----------------------------------------------------------------------------- 
 01=CONTACT FORM SUMIT
 -----------------------------------------------------------------------------*/
-function showImage (imgName) {
+/*function showImage (imgName) {
 	document.getElementsbyClassName ('projectimages').src = imgName;
 	showLargeImagePanel ();
 	unselectAll ()

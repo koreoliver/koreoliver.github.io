@@ -1,14 +1,29 @@
 /*----------------------------------------------------------------------------- 
 01=CONTACT FORM SUMIT
 -----------------------------------------------------------------------------*/
+function showImage (imgName) {
+	document.getElementsbyClassName ('projectimages').src = imgName;
+	showLargeImagePanel ();
+	unselectAll ()
+} 
+
+function showLargeImagePanel() {
+    document.getElementById('largeImgPanel').style.visibility = 'visible';
+}
+function unselectAll() {
+    if(document.selection) document.selection.empty();
+    if(window.getSelection) window.getSelection().removeAllRanges();
+}
+function hideMe(obj) {
+    obj.style.visibility = 'hidden';
+}
+
+/*document.getElementByClassName("submit").addEventListener("click");
+
+/*function () 
+addEventListener("onsend").style.visibility = 'visible';
+addEventListener("window.close();").style.visibility = 'hidden';
 var hiddenSubmit = document.getElementsbyClassName(hidden);
-
-document.getElementByClassName("submit").addEventListener("click",hiddenSubmit);
-
-function () 
-button.addEventListener("onsend").style.visibility = 'visible';
-button.addEventListener("window.close();").style.visibility = 'hidden';
-
 
 /*function myFunction() {
 	

@@ -175,7 +175,7 @@ textarea {
 	  height: 60px;
 	  text-align: center;
 	  font-size: 17px; 
-	  visibility: visible;
+	  visibility: hidden;
 	 
 }
 .hidden a {

@@ -1,18 +1,21 @@
 /*----------------------------------------------------------------------------- 
 01=CONTACT FORM SUBMIT
 -----------------------------------------------------------------------------*/
-var showDiv = function(event) {
-    document.getElementByClassName("hidden").addEventListener("submit");
+var openMessage = function(event) {
+    document.getElementByClassName("submit").addEventListener("send");
     event.preventDefault();
     document.hidden.style.visibility = 'visible';
-}
+};
 
-
-var hideDiv = function(event) {
+var closeMessage = function(event) {
     document.getElementByClassName("hidden").addEventListener("window.close();");
     event.preventDefault();
     document.hidden.style.visibility = 'hidden';
 };
+
+
+
+
 
 
 

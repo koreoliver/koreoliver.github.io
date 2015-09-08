@@ -169,7 +169,7 @@ textarea {
 /*----------------------------------------------------------------------------- 
 08=THANK YOU
 -----------------------------------------------------------------------------*/
-.hidden {
+.hiddendiv {
 	  border: solid 1px #E5E5E5;
 	  width: 400px;
 	  height: 60px;
@@ -178,7 +178,7 @@ textarea {
 	  visibility: hidden;
 	 
 }
-.hidden a {
+.hiddendiv a {
 	width: auto; 
     padding: 2.25px 3.75px; 
     background:#C0C0C0; 

@@ -1,18 +1,37 @@
 /*----------------------------------------------------------------------------- 
 01=CONTACT FORM SUBMIT
 -----------------------------------------------------------------------------*/
-var openMessage = function(event) {
-    document.getElementByClassName("submit").addEventListener("send");
-    event.preventDefault();
-    document.hidden.style.visibility = 'visible';
-};
+/*$('.nav-container li').click(function() {
+    $(this).addClass('highlight').siblings().removeClass('highlight');
+});
 
-var closeMessage = function(event) {
-    document.getElementByClassName("hidden").addEventListener("window.close();");
-    event.preventDefault();
-    document.hidden.style.visibility = 'hidden';
-};
 
+/*$('#projectimagestest').on('click', function(e) {
+    $(this).toggleClass('fullSize');
+});
+
+
+
+/*$(".projectimagestest").toggle(function()
+    {$(this).animate({width: "1000px"}, 'slow');},
+    function()
+    {$(this).animate({width: "120px"}, 'slow');
+});
+
+
+$(document).ready(function(){
+TriggerClick = 0;
+
+$(".projectimages").click(function(){
+ if(TriggerClick==0){
+     TriggerClick=1;
+     $("div#test").animate({width:'1000px'}, 500);
+ }else{
+     TriggerClick=0;
+     $("div#test").animate({width:'300px'}, 500);
+ };
+ });
+});
 
 
 

@@ -208,36 +208,37 @@ textarea {
 .title {
     font-size: 8px;
     max-width: 50%;
-    margin-bottom:0px;
+    margin-bottom:10px;
+    padding: 0px;
   }
   
 .nav-container {
 	max-width: 50%;
-	margin-bottom:0px;
-  
+	margin-bottom:10px;
+    padding: 0px;
   }
 
 .nav-container ul a{
-	font-size: 16px;
+	font-size: 14px;
 	display: inline;
-    padding-bottom:0px;
-  
+    padding-bottom:0px; 
 }
 
 .sidebar {
 	margin-top:0px;
 	padding-top:0px;
-
 }
 .contactmain {
 	width: 80%;
 	margin-left: 0px;
   	margin-right: 0px;
   	margin-top:0px;
+  	max-height: 350px;
 }
 
 input, textarea {
 	width: 80%;
+	max-height: 50px;
 }
 }
 

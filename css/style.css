@@ -199,6 +199,31 @@ textarea {
     color:#FFFFFF;
 	float:right;
 }
+/*----------------------------------------------------------------------------- 
+08=RESPONSIVE
+-----------------------------------------------------------------------------*/
+@media(max-width: 320px){
+  
+.title {
+    font-size: 8px;
+    max-width: 50%;
+  }
+  
+.nav-container {
+	max-width: 50%;
+  
+  }
+
+.nav-container ul a{
+	font-size: 16px;
+	display: inline;
+    padding-bottom:0px;
+}
+
+.contactmain {
+	width: 100%;
+}
+}
 
 
 

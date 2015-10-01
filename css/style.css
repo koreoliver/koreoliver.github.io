@@ -9,6 +9,7 @@ html, body {
 .clear {
 	clear: both;
 }
+
 /*----------------------------------------------------------------------------- 
 =01 LAYOUT 
 -----------------------------------------------------------------------------*/
@@ -17,7 +18,8 @@ html, body {
 	background: white;
 	float: right;
 	padding: 25px;
-	}
+
+}
 
 .main {
 	width: 750px;
@@ -57,11 +59,11 @@ html, body {
 -----------------------------------------------------------------------------*/
 .title {
     width:250px;
-    position:absolute;
+    position:fixed;
     bottom:0;
-    padding-bottom:25px;
-    padding-left: 25px;
-    font-size: 15px;
+    padding-bottom:0px;
+    padding-left: 20px;
+    font-size: 13px;
     }	
 
 /*----------------------------------------------------------------------------- 
@@ -69,14 +71,14 @@ html, body {
 -----------------------------------------------------------------------------*/
 .nav-container {
 	width: 400px;
-	position: fixed;
+	position:fixed;
 	right: 0;
 	bottom: 0;
-	padding-bottom: 30px;	
+	padding-bottom: 0px;	
 	padding-right: 8px;
 	text-decoration: none; 
-
 }
+
 .highlight {
 	background-color: gray; color: white;
 }
@@ -111,7 +113,26 @@ ul li a:hover {
 	width: 100%;
 	}
 /*----------------------------------------------------------------------------- 
-=06 PROJECTS
+=06A PROJECTS HOME PAGE
+-----------------------------------------------------------------------------*/
+.projectheader h2 {
+	padding: 30px;
+	text-align: center;
+}
+
+.projectimages1 img {
+	margin-top: 50px;
+	padding: 8px;
+	margin-left: 40px;
+	margin-right: 40px;
+	border: 1px solid #C0C0C0;
+    bottom: 0;
+}
+
+
+
+/*----------------------------------------------------------------------------- 
+=06B PROJECTS PROJECTS PAGE
 -----------------------------------------------------------------------------*/
 .projectheader h2 {
 	padding: 30px;
@@ -136,6 +157,7 @@ ul li a:hover {
 	position: fixed;
 	display:block;
 }
+
 
 /*----------------------------------------------------------------------------- 
 =07 CONTACT

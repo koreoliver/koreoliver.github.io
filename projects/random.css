@@ -1,0 +1,40 @@
+html {
+	background-color: #66CDAA;
+}
+
+body {
+	font-family: arial;
+	text-align: center;	
+}
+
+
+h1 {
+	color: white;
+	margin-top: 15%;
+	margin-bottom: 2%;
+	margin-left: 3%;
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.content {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 1%;
+	text-align: center;
+
+}
+
+#number {
+	color: white;
+	padding-bottom: 5%;
+	font-size: 60px;
+	font-family: 'Lato', sans-serif;
+}
+
+#math-fact {
+	color: white;
+	font-size:30px;
+	font-family: 'Raleway', sans-serif;
+}

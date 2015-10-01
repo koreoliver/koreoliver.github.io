@@ -80,7 +80,7 @@ a {
 04=TITLE AND LINE
 -----------------------------------------------------------------------------*/
 .line {
-	border-top: 2px solid gray;
+	border-top: 1px solid gray;
 	width: 100%;
 	margin-bottom: 70px;
 	}
@@ -114,7 +114,7 @@ a {
 }
 
 .highlight {
-	background-color: purple; color: white;
+	background-color: #AEEEEE; color: white;
 	border-radius: 10px;
 }
 .nav-container li:hover {
@@ -151,7 +151,6 @@ ul li a:hover {
 	padding: 30px;
 	text-align: center;
 	width: 100%;
-
 }
 
 .projectheader h2 {

@@ -14,54 +14,87 @@ html, body {
 =01 LAYOUT 
 -----------------------------------------------------------------------------*/
 .sidebar {
-	width: 250px;
 	background: white;
 	float: right;
 	padding: 25px;
-	border-top: 1px gray;
-	border-bottom: 1px gray;
-
+    width:15%;
+    margin-top: 120px;
+	margin-right: 20px;
 }
 
-.main {
-	width: 750px;
+.projectimages1 {
 	background: white;
 	float:left;
 	text-align: center;
+  	width: 75%;
 }
+
 /*----------------------------------------------------------------------------- 
-02=MAIN
+02=PROJECTS HOVER
 -----------------------------------------------------------------------------*/
+.projectimages1 img:hover {
+    opacity: .4;
+		transition: opacity .25s ease-in-out;
+}
+
+.text{
+	position: absolute;
+	left:40%;
+	top:50%;
+	opacity: 0;
+	font-weight: bolder;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+.hex:hover .text{
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+}
+.hex img {
+    width: 100%;
+    height: auto;
+}
 
 /*----------------------------------------------------------------------------- 
 03=SIDEBAR
 -----------------------------------------------------------------------------*/
-.sidebar {
-	padding-top: 110px;	
-}
-
 .sidebar img {
-		border-radius: 15px ;
+	border-radius: 15px;
 	}
 
 .widget {
 	padding-bottom:50px;
-	padding: 10px;
+	padding: 15px;
+	padding-left: 15px;
 }
 
 .widget img {
-	margin: 10px;
+	margin: 2px;
 }
 
 /*----------------------------------------------------------------------------- 
-04=TITLE
+04=TITLE AND LINE
 -----------------------------------------------------------------------------*/
+.line {
+	border-top: 2px solid gray;
+	width: 100%;
+	margin-bottom: 70px;
+	}
+
+.footer {
+	position: fixed;
+	bottom:0;
+	width:100%;
+}
+
 .title {
-    width:250px;
+    width:20%;
     position:fixed;
     bottom:0;
-    padding-bottom:0px;
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 13px;
     }	
 
@@ -69,17 +102,19 @@ html, body {
 05=NAV
 -----------------------------------------------------------------------------*/
 .nav-container {
-	width: 400px;
+	width: 80%;
 	position:fixed;
-	right: 0;
 	bottom: 0;
-	padding-bottom: 0px;	
-	padding-right: 8px;
-	text-decoration: none; 
+	right: 10px;
+	font-size: 13px;
+	text-decoration: none;
+	margin-right: 25px; 
+	margin-bottom: 10px;
 }
 
 .highlight {
-	background-color: gray; color: white;
+	background-color: purple; color: white;
+	border-radius: 10px;
 }
 .nav-container li:hover {
 	cursor: pointer;
@@ -107,49 +142,36 @@ ul li a:hover {
 	color:#663399;
 	transition: color 0.4s ease-in;
 }
-/*.line {
-	border-bottom: solid 1px gray;
-	width: 100%;
-	}
+
 /*----------------------------------------------------------------------------- 
-=06A PROJECTS HOME PAGE
+=06A PROJECTS TITLE
 -----------------------------------------------------------------------------*/
 .projectheader h2 {
 	padding: 30px;
 	text-align: center;
+	width: 100%;
+
+}
+
+.projectheader h2 {
+	padding: 1%;
+	
+	border-bottom: 1px solid gray;
+	width
+}
+
+/*----------------------------------------------------------------------------- 
+=06B PROJECTS HOME PAGE
+-----------------------------------------------------------------------------*/
+.col {
+  float: left;
 }
 
 .projectimages1 img {
-	margin-top: 50px;
-	padding: 8px;
-	margin-left: 40px;
-	margin-right: 40px;
-	border: 1px solid #C0C0C0;
-    bottom: 0;
-}
-
-
-
-/*----------------------------------------------------------------------------- 
-=06B PROJECTS PROJECTS PAGE
------------------------------------------------------------------------------*/
-.projectheader h2 {
-	padding: 30px;
-	text-align: center;
-	width: 90%;
-  	max-width: 960px;
-}
-
-.projectimages {
-	width: 80%;
-  	max-width: 768px;
-}
-
-/*.projectimages img {
-	margin-top: 50px;
-	padding: 8px;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-top: 40px;
+	padding: 4px;
+	margin-left: 20px;
+	margin-right: 20px;
 	border: 1px solid #C0C0C0;
     bottom: 0;
 }
@@ -272,7 +294,7 @@ input, textarea {
 	width: 80%;
 	max-height: 50px;
 }
-}
+
 
 
 

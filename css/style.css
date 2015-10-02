@@ -20,7 +20,7 @@ html, body {
     width:15%;
     margin-top: 120px;
 	margin-right: 20px;
-	border-left: 2px solid gray;
+	border-left: 1px solid gray;
 }
 
 .projectimages1 {
@@ -38,18 +38,32 @@ html, body {
 		transition: opacity .25s ease-in-out;
 }
 
-.text{
+.image-wrapper { 
+	position: relative; 
+	width: 250px; 
+} 
+
+.image-wrapper p { 
+	position: absolute; 
+	left: 0; top: 0; 
+	padding: 10px; 
+	border: 1px solid #FFF; 
+	width: 218px; 
+	color: #FFF; 
+	margin: 5px; }
+/*----------------------------------------------------------------------------- 
+02=PROJECTS HOVER
+-----------------------------------------------------------------------------*/
+/*.text{
 	position: absolute;
 	left:40%;
 	top:50%;
 	opacity: 0;
 	font-weight: bolder;
 }
-
 a {
     color: rgb(0, 0, 0);
 }
-
 .hex:hover .text{
 	opacity: 1;
 	transition: opacity .25s ease-in-out;
@@ -67,14 +81,21 @@ a {
 	}
 
 .widget {
-	padding-bottom:50px;
+	margin-top: 5px;
 	padding: 15px;
 	padding-left: 15px;
 }
 
-.widget img {
-	margin: 2px;
+.widget i {
+	padding: 6px;
+	font-size: 15px;
+	color:black;
 }
+
+.copy {
+	font-size: 14px;
+}
+
 
 /*----------------------------------------------------------------------------- 
 04=TITLE AND LINE
@@ -148,15 +169,17 @@ ul li a:hover {
 =06A PROJECTS TITLE
 -----------------------------------------------------------------------------*/
 .projectheader h2 {
+	font-family: 'Raleway', sans-serif;
 	padding: 30px;
 	text-align: center;
 	width: 100%;
+	margin-left: 150px;
+	font-size: 30px;
 }
 
 .projectheader h2 {
 	padding: 1%;	
 	border-bottom: 0px solid gray;
-	width
 }
 
 /*----------------------------------------------------------------------------- 

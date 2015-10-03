@@ -4,6 +4,7 @@ html, body {
 	color: #696969;
 	height: 100%;
 	font-family: 'Lato', sans-serif;
+	background-color: #b5ceca
  }
 .clear {
 	clear: both;
@@ -20,6 +21,7 @@ html, body {
     margin-top: 120px;
 	margin-right: 20px;
 	border-left: 1px solid gray;
+	background-color: #b5ceca
 }
 
 .projectimages1 {
@@ -27,6 +29,7 @@ html, body {
 	float:left;
 	text-align: center;
   	width: 75%;
+  	background-color: #b5ceca
 }
 
 
@@ -48,7 +51,12 @@ html, body {
   	height: 132px;
   	width: 225px;
   	display: inline-block;
+  	background-color: white;
 }
+
+ .imgWrap p {
+
+ }
 
 /*----------------------------------------------------------------------------- 
 02=PROJECTS HOVER
@@ -106,7 +114,7 @@ html, body {
 	border-top: 1px solid gray;
 	width: 100%;
 	margin-bottom: 70px;
-	}
+}
 
 .footer {
 	position: fixed;
@@ -137,7 +145,7 @@ html, body {
 }
 
 .highlight {
-	background-color: gray; color: white;
+	background-color: white; color: black;
 	border-radius: 10px;
 }
 .nav-container li:hover {
@@ -171,14 +179,12 @@ ul li a:hover {
 =06A PROJECTS TITLE
 -----------------------------------------------------------------------------*/
 .projectheader h2 {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 300px;
-
+	font-family: 'Playfair Display', serif;
 	padding: 30px;
 	text-align: center;
 	width: 100%;
 	margin-left: 150px;
-	font-size: 32px;
+	font-size: 40px;
 }
 
 .projectheader h2 {
@@ -188,7 +194,12 @@ ul li a:hover {
 /*----------------------------------------------------------------------------- 
 =07 CONTACT
 -----------------------------------------------------------------------------*/
+.form {
+background: white;
+}
+
 .contactmain {
+ 	background: white;
  	border: 1px solid #C0C0C0;
   	padding: 2px;
   	max-width: 500px;

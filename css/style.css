@@ -29,34 +29,30 @@ html, body {
   	width: 75%;
 }
 
-.imgWrap  {
-	display: inline-block;
-}
-
-.imgDescription {
-
-}
 
 /*----------------------------------------------------------------------------- 
 =06B PROJECTS HOME PAGE
 -----------------------------------------------------------------------------*/
-.imgWrap {
+.imgWrap img {
+	height: 132px;
+  	width: 225px;
+ }
+ .imgWrap {
 	margin-top: 40px;
 	padding: 4px;
 	margin-left: 10px;
 	margin-right: 10px;
 	border: 1px solid #C0C0C0;
     bottom: 0;
+    position: relative;
+  	height: 132px;
+  	width: 225px;
+  	display: inline-block;
 }
 
 /*----------------------------------------------------------------------------- 
 02=PROJECTS HOVER
 -----------------------------------------------------------------------------*/
-.imgWrap {
-  position: relative;
-  height: 146px;
-  width: 250px;
-}
 
 .imgDescription {
   position: absolute;
@@ -66,10 +62,10 @@ html, body {
   right: 0;
   background: rgba(241, 241, 241, 0.75);
   color: black;
-  font-weight: bold;
+  font-weight: bolder;
   visibility: none;
   opacity: 0;
-  font: 16px/1.4 arial;
+  font: 13px/1.4 arial;
 
 }
 
@@ -79,19 +75,15 @@ html, body {
   transition: opacity .25s ease-in-out;
 }
 
-.imgDescription p {
-	color:black;
-}
-
 /*----------------------------------------------------------------------------- 
 03=SIDEBAR
 -----------------------------------------------------------------------------*/
 .sidebar img {
+	margin-top: 20px;
 	border-radius: 15px;
-	}
+}
 
 .widget {
-	margin-top: 5px;
 	padding: 15px;
 	padding-left: 15px;
 }
@@ -179,12 +171,14 @@ ul li a:hover {
 =06A PROJECTS TITLE
 -----------------------------------------------------------------------------*/
 .projectheader h2 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300px;
+
 	padding: 30px;
 	text-align: center;
 	width: 100%;
 	margin-left: 150px;
-	font-size: 30px;
+	font-size: 32px;
 }
 
 .projectheader h2 {
@@ -257,6 +251,30 @@ textarea {
 /*----------------------------------------------------------------------------- 
 08=RESPONSIVE
 -----------------------------------------------------------------------------*/
+{
+.imgWrap 
+	margin-top: 40px;
+	padding: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #C0C0C0;
+    bottom: 0;
+    position: relative;
+  	height: 132px;
+  	width: 225px;
+}
+
+.imgWrap img
+	height: 132px;
+  	width: 225px;
+
+}
+.imgDescription {
+	font: 12px/1.4 arial;
+	top:;
+}
+}
+
 @media(max-width: 320px){
   
 .title {

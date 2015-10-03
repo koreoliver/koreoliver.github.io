@@ -145,7 +145,7 @@ html, body {
 }
 
 .highlight {
-	background-color: white; color: black;
+	background-color: white; color: #696969;
 	border-radius: 10px;
 }
 .nav-container li:hover {

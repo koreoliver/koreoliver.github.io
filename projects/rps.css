@@ -1,0 +1,44 @@
+html {
+	
+}
+
+body {
+	background-image: url(placeholder3.jpg);
+	background-size: 100%;
+	font-family: 'Oswald', sans-serif;;
+	text-align: center;
+	
+
+}
+.container {
+	margin-top: 15%;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+
+}
+
+.btn-primary {
+	color: gray;
+    background-color: #fff;
+    border-color: #fff;
+
+}
+
+.h2{
+ font-size: 100px;
+}
+
+.h4{
+font-size: 30px;
+}
+
+
+.pieces-played {
+
+}
+
+.game-results {
+
+
+}

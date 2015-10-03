@@ -60,7 +60,7 @@ html, body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(241, 241, 241, 0.75);
+  background: rgba(350, 350, 350, 0.75);
   color: black;
   font-weight: bolder;
   visibility: none;
@@ -71,7 +71,7 @@ html, body {
 
 .imgWrap:hover .imgDescription {
   visibility: visible;
-  opacity: .4;
+  opacity: .8;
   transition: opacity .25s ease-in-out;
 }
 

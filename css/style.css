@@ -35,7 +35,7 @@ html, body {
 
 
 /*----------------------------------------------------------------------------- 
-=06B PROJECTS HOME PAGE
+=02A PROJECTS HOME PAGE
 -----------------------------------------------------------------------------*/
 .imgWrap img {
 	height: 132px;
@@ -56,7 +56,41 @@ html, body {
 }
 
 /*----------------------------------------------------------------------------- 
-02=PROJECTS HOVER
+02B=PROJECT COLUMNS
+-----------------------------------------------------------------------------*/
+ /*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+/*----------------------------------------------------------------------------- 
+02C=PROJECTS HOVER
 -----------------------------------------------------------------------------*/
 
 .imgDescription {
@@ -192,16 +226,17 @@ ul li a:hover {
 =07 CONTACT
 -----------------------------------------------------------------------------*/
 .form {
-background: white;
+	background: white;
+	height: 65%;
 }
 
 .contactmain {
  	background: white;
  	border: 1px solid #C0C0C0;
   	padding: 2px;
-  	height: 75%;
+  	height: 65%;
   	max-height: 75%;
-  	max-width: 50%;
+  	max-width: 35%;
   	padding-left: 30px;
   	margin-left: 25%;
   	margin-right: 25%;
@@ -220,7 +255,7 @@ input, textarea {
 textarea { 
     width: 90%; 
     max-width: 90%;
-    height: 100px; 
+    height: 80px; 
     line-height: 150%; 
 } 
    

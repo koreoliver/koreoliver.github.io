@@ -199,6 +199,8 @@ background: white;
  	background: white;
  	border: 1px solid #C0C0C0;
   	padding: 2px;
+  	height: 75%;
+  	max-height: 75%;
   	max-width: 50%;
   	padding-left: 30px;
   	margin-left: 25%;

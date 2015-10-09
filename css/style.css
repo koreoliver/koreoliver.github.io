@@ -112,13 +112,14 @@ html, body {
 03=SIDEBAR
 -----------------------------------------------------------------------------*/
 .sidebar img {
-	margin-top: 20px;
+	margin-top: 25%;
+	margin-right: 10%;
 	border-radius: 15px;
 }
 
 .widget {
-	padding: 15px;
-	padding-left: 15px;
+	padding: 10px;
+	padding-left: 10px;
 }
 
 .widget i {
@@ -128,6 +129,7 @@ html, body {
 }
 
 .copy {
+	width: 80%;
 	color: black;
 	font-size: 13px;
 }

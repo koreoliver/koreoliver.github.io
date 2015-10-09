@@ -113,7 +113,6 @@ html, body {
 -----------------------------------------------------------------------------*/
 .sidebar img {
 	margin-top: 25%;
-	margin-right: 10%;
 	border-radius: 15px;
 }
 
@@ -151,8 +150,7 @@ html, body {
 }
 
 .title {
-
-	font-weight: 700;
+	font-weight: bolder;
 	width:20%;
     position:fixed;
     bottom:0;
@@ -166,8 +164,7 @@ html, body {
 05=NAV
 -----------------------------------------------------------------------------*/
 .nav-container {
-
-	font-weight: 700;
+	font-weight: bolder;
 	width: 80%;
 	position:fixed;
 	bottom: 0;
@@ -212,12 +209,12 @@ ul li a:hover {
 =06A PROJECTS TITLE
 -----------------------------------------------------------------------------*/
 .projectheader h2 {
+	font-weight: bolder;
 	margin-left: 20px;
 	padding: 30px;
 	text-align: left;
 	width: 100%;
 	font-size: 28px;
-	font-weight: bolder;
 }
 
 .projectheader h2 {

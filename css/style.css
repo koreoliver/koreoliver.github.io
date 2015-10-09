@@ -191,13 +191,9 @@ ul li {
 	list-style: none;
 	font-size: 15px;
 	text-decoration: none;
-}
-
-ul li a {
 	margin: 5px;
 	display: block;
 }
-
 
 ul li a:hover {
 	color:#663399;

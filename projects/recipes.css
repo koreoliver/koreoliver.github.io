@@ -1,0 +1,98 @@
+/*----------------------------------------------------------------------------- 
+=00 BASE STYLES 
+-----------------------------------------------------------------------------*/
+html {
+    height: 100%;
+ }
+
+ body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background:#FFFFFF; 
+  	color:gray;
+  	font-family: "Source Sans Pro";
+ }
+
+ /*----------------------------------------------------------------------------- 
+=01 HEADER STYLES 
+-----------------------------------------------------------------------------*/
+
+.header_div{
+    height: 55px;
+    width: 100%;
+    text-align:center;
+    font-size: 40px;
+    color:#FFFFFF;
+    background:#AA2704;
+/*    background-color:rgba(255,0,0,0.3);*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px gray; 
+}
+
+.line {
+	width: 100%;
+	line-height: 2px;
+	color:gray;
+}
+
+/*----------------------------------------------------------------------------- 
+=02 MAIN STYLES 
+-----------------------------------------------------------------------------*/
+title {
+	font-size: 15px;
+	color:#B22222;
+}
+.main_div{
+    margin-bottom:45px;
+    margin-top:25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position:absolute;
+    float:left;
+   	text-align:left;
+    top:95px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+
+.main_div p {
+	font-style: italic;
+	margin-top: 0px;
+}
+
+.instructions {
+	margin-top: 22px;
+}
+
+h2 {
+	color:#B22222;
+	font-size: 20px;
+}
+h4 {
+	font-family: "Source Sans Pro";
+	color:#B22222;
+	font-size: 13px;
+}
+
+li {
+	font-size: 14px;
+}
+/*----------------------------------------------------------------------------- 
+=04 IMAGE STYLES 
+-----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------- 
+=04 FOOTER STYLES 
+-----------------------------------------------------------------------------*/
+
+/*.footer_div{
+    position: relative;
+    height: 40px;
+    width: 100%;
+  	position:fixed;
+  	bottom:0px;
+  	text-align:right;
+}

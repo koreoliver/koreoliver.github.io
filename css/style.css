@@ -79,14 +79,15 @@ html, body {
 .span_1_of_3 { width: 32.26%; }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+/*@media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
-}
+}*/
 
 /*----------------------------------------------------------------------------- 
 02C=PROJECTS HOVER
 -----------------------------------------------------------------------------*/
+
 
 .imgDescription {
   position: absolute;
@@ -230,7 +231,6 @@ ul li a:hover {
   	max-height: 75%;
   	max-width: 35%;
   	padding-left: 2%;
-  	padding-left: 2%;
   	margin-left: 25%;
   	margin-right: 25%;
   	margin-top: 2%;
@@ -288,29 +288,132 @@ textarea {
 	float:right;
 }
 /*----------------------------------------------------------------------------- 
-08=RESPONSIVE
+08A=RESPONSIVE 945px;
 -----------------------------------------------------------------------------*/
+@media(max-width: 945px){
 
-.imgWrap 
-	margin-top: 40px;
-	padding: 4px;
-	margin-left: 10px;
-	margin-right: 10px;
-	border: 1px solid #C0C0C0;
-    bottom: 0;
-    position: relative;
-  	height: 132px;
-  	width: 225px;
-}
-
-.imgWrap img 
-	height: 132px;
-  	width: 225px;
-
-}
 .imgDescription {
-	font: 12px/1.4 arial;
+  	top: 10px;
+  	font: 8px/1.4 arial;
+ }
+ .imgWrap img {
+	height: 88px;
+  	width: 149px;
+ }
+ .imgWrap {
+  	height: 88px;
+  	width: 149px;
+
 }
+.widget i {
+	padding: 4px;
+}
+}
+
+/*----------------------------------------------------------------------------- 
+09B=RESPONSIVE 700px;
+-----------------------------------------------------------------------------*/
+@media(max-width: 725px){
+
+.imgDescription {
+  	font: 8px/1.4 arial;
+ }
+ .imgWrap img {
+	height: 80px;
+  	width: 116px;
+ }
+ .imgWrap {
+  	height: 80px;
+  	width: 116px;
+
+  }
+
+ .projectimages1 {
+ 	width:400px;
+
+  }
+
+  .widget i {
+	padding: 2px;
+}
+}
+/*----------------------------------------------------------------------------- 
+09C=RESPONSIVE 581px;
+-----------------------------------------------------------------------------*/
+@media(max-width: 581px){
+ .imgWrap img {
+	height: 60px;
+  	width: 77px;
+ }
+
+ .imgWrap {
+	height: 60px;
+  	width: 77px;
+ }
+
+.projectimages1 {
+ 	width:300px;
+
+  }
+
+  .contactmain {
+  	margin-left: 0%;
+  }
+  .copy {
+	font-size: 10px;
+}
+.widget i {
+	padding: 0px;
+	font-size: 10px;
+}
+}
+/*----------------------------------------------------------------------------- 
+09D=RESPONSIVE 454px;
+-----------------------------------------------------------------------------*/
+@media(max-width: 456px){
+ .imgDescription {
+  	font: 4px/1.4 arial;
+ }
+ .imgWrap img {
+	height: 36px;
+  	width: 58px;
+ }
+
+ .imgWrap {
+	height: 36px;
+  	width: 58px;
+ }
+
+.projectimages1 {
+ 	width:250px;
+
+  }
+}
+/*----------------------------------------------------------------------------- 
+09E=RESPONSIVE MOBILE 394px
+-----------------------------------------------------------------------------*/
+@media(max-width: 394px){
+  .imgDescription {
+  	font: 2px/1.4 arial;
+ }
+ .imgWrap img {
+	height: 18px;
+  	width: 29px;
+ }
+
+ .imgWrap {
+	height: 18px;
+  	width: 29px;
+ }
+
+.projectimages1 {
+ 	width:180px;
+
+  }
+}
+/*----------------------------------------------------------------------------- 
+09E=RESPONSIVE MOBILE 320px
+-----------------------------------------------------------------------------*/
 
 @media(max-width: 320px){
   

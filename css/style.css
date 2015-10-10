@@ -355,7 +355,32 @@ ul li {
 09C=RESPONSIVE 581px;
 -----------------------------------------------------------------------------*/
 @media(max-width: 581px){
- .imgWrap img {
+ 
+.contactmain {
+	width: 80%;
+	margin-left: 0px;
+  	margin-right: 0px;
+  	margin-top:0px;
+  	max-height: 325px;
+}
+
+input, textarea {
+	width: 80%;
+	max-height: 40px;
+}
+
+.submit input { 
+    padding: 9px 15px; 
+    background:#C0C0C0; 
+    border: 10px; 
+    font-size: 9px; 
+    }
+
+ .sidebar {
+	margin-top:0px;
+	padding-top:0px;
+}
+.imgWrap img {
 	height: 60px;
   	width: 77px;
  }
@@ -423,7 +448,8 @@ ul li {
 09E=RESPONSIVE MOBILE 394px
 -----------------------------------------------------------------------------*/
 @media(max-width: 394px){
-  .imgDescription {
+
+.imgDescription {
   	font: 2px/1.4 arial;
  }
  .imgWrap img {
@@ -447,34 +473,6 @@ ul li {
 
 @media(max-width: 320px){
   
-.title {
-    font-size: 8px;
-    max-width: 50%;
-    margin-bottom:10px;
-    padding: 0px;
-    width: 80%;
-  	max-width: 768px;
-  	text-align: center;
-  }
-  
-.nav-container {
-	max-width: 50%;
-	margin-bottom:10px;
-    padding: 0px;
-    width: 20%;
-  	max-width: 192px;
-  }
-
-.nav-container ul a{
-	font-size: 14px;
-	display: inline;
-    padding-bottom:0px; 
-}
-
-.sidebar {
-	margin-top:0px;
-	padding-top:0px;
-}
 .contactmain {
 	width: 80%;
 	margin-left: 0px;

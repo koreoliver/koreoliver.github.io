@@ -336,6 +336,20 @@ textarea {
   .widget i {
 	padding: 2px;
 }
+.title {
+	font-size: 8px;
+
+}
+ul li {
+	font-size: 8px;
+
+}
+.projectheader h2 {
+	font-size: 20px;
+}
+  .copy {
+	font-size: 12px;
+}
 }
 /*----------------------------------------------------------------------------- 
 09C=RESPONSIVE 581px;
@@ -388,6 +402,22 @@ textarea {
  	width:250px;
 
   }
+ .mainpic img {
+ 	height:45px;
+ 	width:60px;
+ }
+.title {
+	font-size: 6px;
+
+}
+ul li {
+	font-size: 6px;
+
+}
+.projectheader h2 {
+	font-size: 15px;
+}
+  
 }
 /*----------------------------------------------------------------------------- 
 09E=RESPONSIVE MOBILE 394px

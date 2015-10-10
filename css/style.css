@@ -181,7 +181,6 @@ html, body {
 
 .highlight {
 	background-color: white; color: #696969;
-	border-radius: 5px;
 }
 .nav-container li:hover {
 	cursor: pointer;

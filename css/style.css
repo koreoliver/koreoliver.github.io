@@ -18,7 +18,7 @@ html, body {
 	float: right;
 	padding: 25px;
     width: 15%;
-    margin-top: 120px;
+    margin-top: 135px;
 	margin-right: 20px;
 	border-left: 1px solid gray;
 }
@@ -36,7 +36,9 @@ html, body {
 	height: 132px;
   	width: 225px;
  }
+
  .imgWrap {
+	font-family: 'Lato', sans-serif;
 	margin-top: 40px;
 	padding: 4px;
 	margin-left: 10px;

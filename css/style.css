@@ -18,7 +18,7 @@ html, body {
 	float: right;
 	padding: 25px;
     width: 15%;
-    margin-top: 135px;
+    margin-top: 125px;
 	margin-right: 20px;
 	border-left: 1px solid gray;
 }
@@ -115,7 +115,7 @@ html, body {
 03=SIDEBAR
 -----------------------------------------------------------------------------*/
 .sidebar img {
-	margin-top: 25%;
+	margin-top: 10%;
 	border-radius: 15px;
 }
 

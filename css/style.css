@@ -203,6 +203,7 @@ ul li a:hover {
 =06A PROJECTS TITLE
 -----------------------------------------------------------------------------*/
 .projectheader h2 {
+/*	font-family: "Freehand521BT-RegularC",sans-serif;*/
 	font-weight: bolder;
 	margin-left: 20px;
 	padding: 30px;

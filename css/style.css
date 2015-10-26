@@ -92,7 +92,7 @@ html, body {
 .imgDescription {
   position: absolute;
   top: 10px;
-  bottom: 0;
+  bottom: 60px;
   left: 0;
   right: 0;
   background: rgba(350, 350, 350, 0.75);
